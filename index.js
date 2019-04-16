@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser');
-const logger = require('morgan');
 const mongoose = require('mongoose');
+const logger = require('morgan');
 const cors = require('cors');
 require('dotenv').config()
 const restapiRoutes = require('./controller');
